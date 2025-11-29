@@ -1,0 +1,173 @@
+---
+title: "Data Quality in the Social Sciences: Post Doc Interview"
+subtitle: "Vinayak Anand-Kumar"
+format:
+  revealjs:
+    theme: black
+    controls: true
+    controlsLayout: edges
+    controlsBackArrows: visible
+    controlsTutorial: true
+    preview-links: auto
+    progress: true
+    slideNumber: true
+    hash: true
+    navigationMode: default
+---
+
+# Navigating the slide deck {background="#000000"}
+
+## Content
+
+## Moving Sideways & Down
+
+## Follow at home
+
+# About me {background="#000000"}
+
+## My work experience
+
+-   Leading on Data Quality
+<br>
+<br>
+-   Advising on Methodology
+<br>
+<br>
+-   Connecting through Training
+
+## My values
+
+-   Wisdom
+<br>
+<br>
+-   Compassion
+<br>
+<br>
+-   Adaptability
+<br>
+<br>
+-   Transparency
+
+## Data Quality
+
+![](images/data_quality.png)
+
+## Total Survey Error
+
+![](images/tse.png)
+
+# My vision {background="#000000"}
+
+-   A blueprint for leveraging AI for data quality
+
+# Plans for research {background="#000000"}
+
+# Phase 1 (Months 1 - 4) {background="#000000"}
+
+-   Identify and validate needs of researchers
+-   Methodological scoping
+-   Develop design specifications based on needs and scoping
+
+## Identify needs
+
+::: {style="font-size: 70%;"}
+| Item | Description |
+|-----------------|-------------------------------------------------------|
+| Objective | Identify researcher needs with respect to data quality and use of AI |
+| Design | Workshop |
+| Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach |
+| Sample | 4 researchers outside GESIS + 2 researchers from Survey Design and Methodology |
+| Duration | 4 hours |
+| Medium | Online |
+| Incentive | Access to Alpha + Co-authorship in publication about development of tool |
+:::
+
+## Identify needs - Methods
+
+::: {style="font-size: 60%;"}
+| Topic                                         | Dimensions                                                                                         | Method               |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------|
+| Unmet data-quality needs where AI could add value | Frame error, Selection error, Missing redundancy, Validity error, Measurement error, Processing error | Card Sorting         |
+| Features of AI tool that are important        | Execution, Control, Model Type, Quality metrics, Interpretability, Infrastructure                  | Dot Voting           |
+| Concerns in leveraging AI                     | Open                                                                                                | 6-3-5 Brainstorming  |
+| What using the tool should look like          | Access, Uploading Data, Processing Time, Format of Output, Explanation of Method                   | Journey Mapping      |
+:::
+
+## Validate needs
+
+::: {style="font-size: 70%;"}
+| Item                 | Description                                                      |
+|----------------------|------------------------------------------------------------------|
+| Objective            | Validate needs identified from workshop                          |
+| Design               | Survey                                                           |
+| Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach            |
+| Sample               | 30 researchers                                                   |
+| Duration             | 10-minute survey                                                 |
+| Methods              | Short ranking, dropdown, multiple choice                         |
+| Incentive            | Access to Alpha                                                  |
+:::
+
+## Methodological scoping
+
+::: {style="font-size: 55%;"}
+1. Output results from workshop and survey.  
+   *Method: Descriptive analysis.*
+<br>
+<br>
+2. Review literature to identify suitable AI models based on top three data quality needs.  
+   *Method: Rapid Evidence Assessment (REA).*
+<br>
+<br>
+3. Evaluate feasibility of implementing candidate AI models.  
+   *Method: Consultation with CSS, KT, SDM, IT, and SS&E; score each method based on technical feasibility, data feasibility, resource feasibility.*
+<br>
+<br>
+4. Compile results and feasibility review into an RMarkdown report.  
+   *Method: Structured synthesis.*
+<br>
+<br>
+5. Select the three most feasible AI-based data-quality methods.  
+   *Method: Prioritization matrix (feasibility × impact).*
+:::
+
+## Develop design specifications
+
+::: {style="font-size: 50%;"}
+| Section                    | Item                                                                                                                                          |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Problem Definition**  | • Data quality dimension to address (representation, measurement, processing, etc.)<br>• Specific Total Survey Error (TSE) source targeted    |
+| **2. AI/Methodological Design** | • AI model type<br>• Approach type (fine-tuning, RAG)<br>• Training & testing workflow<br>• Quality/performance metrics<br>• Interpretability plan (SHAP, attention maps, rule extraction, LLM-output justification)<br>• Model limitations (transparent statement) |
+| **3. Infrastructure**      | • Implementation environment (local R/Python, online app, server, cloud, hybrid)<br>• Compute requirements (CPU/GPU, memory, speed benchmarks)<br>• Data security & privacy considerations |
+| **4. User Experience (UX)** | • Steps to access and use the tool<br>• Input/upload process<br>• Processing expectations (latency, transparency)<br>• Output format<br>• Error handling (what the user sees when data is not suitable) |
+:::
+
+## Confirm specification
+
+::: {style="font-size: 70%;"}
+| Item                 | Description                                                      |
+|----------------------|------------------------------------------------------------------|
+| Objective            | Confirm specification to build                                   |
+| Design               | Survey                                                           |
+| Recruitment strategy | Participants of workshop + respondents to survey                 |
+| Sample               | 36                                                               |
+| Duration             | 5 minutes                                                        |
+| Method               | Online voting                                                    |
+:::
+
+# Phase 2 (Months 5 - 8) {background="#000000"}
+
+1. Build a minimum viable product  
+2. Peer review of code against specification (GESIS Researcher)  
+3. Train and test model using synthetic data  
+4. Peer review code (Co-pilot) 
+5. Validate model on empirical data (Data Services for the Social Sciences)  
+
+# Phase 3 (Months 9 - 11) {background="#000000"}
+
+-   Release Alpha to co-creators
+-   Develop and submit manuscript on development to Survey Methodology
+-   Review the process
+-   Publish a blog about the development process
+-   Output a recommendation report for GESIS on development of AI quality methods, and outline next steps for integrating indicator into Toolbox
+
+
