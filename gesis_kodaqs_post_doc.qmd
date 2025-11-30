@@ -17,42 +17,47 @@ format:
 
 # Navigating the slide deck {background="#000000"}
 
-## Content
+## Content {background="#FFFFFF"}
 
-## Moving Sideways & Down
+-   About me <br> <br>
+-   My vision <br> <br>
+-   Research plan
 
-## Follow at home
+## Follow at home {background="#FFFFFF"}
+
+![](images/qr-code.png)
+
+<div class="absolute" style="bottom:225px; right:130px; width:300px; text-align:center;">
+  <em>Scan Me <br>&<br> <b>Use Landscape View</b></em>
+</div>
+
+## Moving Sideways & Down {background="#FFFFFF"}
+<br>
+<br>
+**>** Move sideways to explore a new topic<br><br>  
+**V** Move down to go deeper into the topic<br><br>   
+**☰ Overview** — Click the three-dash icon to see the entire slide layout
 
 # About me {background="#000000"}
 
-## My work experience
+## My work experience {background="#FFFFFF"}
 
--   Leading on Data Quality
-<br>
-<br>
--   Advising on Methodology
-<br>
-<br>
+-   Leading on Data Quality <br> <br>
+-   Advising on Methodology <br> <br>
 -   Connecting through Training
 
-## My values
+## My values {background="#FFFFFF"}
 
--   Wisdom
-<br>
-<br>
--   Compassion
-<br>
-<br>
--   Adaptability
-<br>
-<br>
+-   Wisdom <br> <br>
+-   Compassion <br> <br>
+-   Adaptability <br> <br>
 -   Transparency
 
-## Data Quality
+## Data Quality {background="#FFFFFF"}
 
-![](images/data_quality.png)
+![](images/data_quality.png){.absolute right="150"}
 
-## Total Survey Error
+## Total Survey Error {background="#FFFFFF"}
 
 ![](images/tse.png)
 
@@ -68,11 +73,11 @@ format:
 -   Methodological scoping
 -   Develop design specifications based on needs and scoping
 
-## Identify needs
+## Identify needs {background="#FFFFFF"}
 
 ::: {style="font-size: 70%;"}
 | Item | Description |
-|-----------------|-------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | Objective | Identify researcher needs with respect to data quality and use of AI |
 | Design | Workshop |
 | Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach |
@@ -82,85 +87,105 @@ format:
 | Incentive | Access to Alpha + Co-authorship in publication about development of tool |
 :::
 
-## Identify needs - Methods
+## Identify needs - Methods {background="#FFFFFF"}
 
 ::: {style="font-size: 60%;"}
-| Topic                                         | Dimensions                                                                                         | Method               |
-|-----------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------|
-| Unmet data-quality needs where AI could add value | Frame error, Selection error, Missing redundancy, Validity error, Measurement error, Processing error | Card Sorting         |
-| Features of AI tool that are important        | Execution, Control, Model Type, Quality metrics, Interpretability, Infrastructure                  | Dot Voting           |
-| Concerns in leveraging AI                     | Open                                                                                                | 6-3-5 Brainstorming  |
-| What using the tool should look like          | Access, Uploading Data, Processing Time, Format of Output, Explanation of Method                   | Journey Mapping      |
+| Topic | Dimensions | Method |
+|------------------|---------------------------------------|----------------|
+| Unmet data-quality needs where AI could add value | Frame error, Selection error, Missing redundancy, Validity error, Measurement error, Processing error | Card Sorting |
+| Features of AI tool that are important | Execution, Control, Model Type, Quality metrics, Interpretability, Infrastructure | Dot Voting |
+| Concerns in leveraging AI | Open | 6-3-5 Brainstorming |
+| What using the tool should look like | Access, Uploading Data, Processing Time, Format of Output, Explanation of Method | Journey Mapping |
 :::
 
-## Validate needs
+## Validate needs {background="#FFFFFF"}
 
 ::: {style="font-size: 70%;"}
-| Item                 | Description                                                      |
-|----------------------|------------------------------------------------------------------|
-| Objective            | Validate needs identified from workshop                          |
-| Design               | Survey                                                           |
-| Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach            |
-| Sample               | 30 researchers                                                   |
-| Duration             | 10-minute survey                                                 |
-| Methods              | Short ranking, dropdown, multiple choice                         |
-| Incentive            | Access to Alpha                                                  |
+| Item | Description |
+|-------------------|-----------------------------------------------------|
+| Objective | Validate needs identified from workshop |
+| Design | Survey |
+| Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach |
+| Sample | 30 researchers |
+| Duration | 10-minute survey |
+| Methods | Short ranking, dropdown, multiple choice |
+| Incentive | Access to Alpha |
 :::
 
-## Methodological scoping
+## Methodological scoping {background="#FFFFFF"}
 
 ::: {style="font-size: 55%;"}
-1. Output results from workshop and survey.  
-   *Method: Descriptive analysis.*
-<br>
-<br>
-2. Review literature to identify suitable AI models based on top three data quality needs.  
-   *Method: Rapid Evidence Assessment (REA).*
-<br>
-<br>
-3. Evaluate feasibility of implementing candidate AI models.  
-   *Method: Consultation with CSS, KT, SDM, IT, and SS&E; score each method based on technical feasibility, data feasibility, resource feasibility.*
-<br>
-<br>
-4. Compile results and feasibility review into an RMarkdown report.  
-   *Method: Structured synthesis.*
-<br>
-<br>
-5. Select the three most feasible AI-based data-quality methods.  
-   *Method: Prioritization matrix (feasibility × impact).*
+1.  Output results from workshop and survey.\
+    *Method: Descriptive analysis.* <br> <br>
+2.  Review literature to identify suitable AI models based on top three data quality needs.\
+    *Method: Rapid Evidence Assessment (REA).* <br> <br>
+3.  Evaluate feasibility of implementing candidate AI models.\
+    *Method: Consultation with CSS, KT, SDM, IT, and SS&E; score each method based on technical feasibility, data feasibility, resource feasibility.* <br> <br>
+4.  Compile results and feasibility review into an RMarkdown report.\
+    *Method: Structured synthesis.* <br> <br>
+5.  Select the three most feasible AI-based data-quality methods.\
+    *Method: Prioritization matrix (feasibility × impact).*
 :::
 
-## Develop design specifications
+## Develop design specifications {background="#FFFFFF"}
 
 ::: {style="font-size: 50%;"}
-| Section                    | Item                                                                                                                                          |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Problem Definition**  | • Data quality dimension to address (representation, measurement, processing, etc.)<br>• Specific Total Survey Error (TSE) source targeted    |
+| Section | Item |
+|----------------|--------------------------------------------------------|
+| **1. Problem Definition** | • Data quality dimension to address (representation, measurement, processing, etc.)<br>• Specific Total Survey Error (TSE) source targeted |
 | **2. AI/Methodological Design** | • AI model type<br>• Approach type (fine-tuning, RAG)<br>• Training & testing workflow<br>• Quality/performance metrics<br>• Interpretability plan (SHAP, attention maps, rule extraction, LLM-output justification)<br>• Model limitations (transparent statement) |
-| **3. Infrastructure**      | • Implementation environment (local R/Python, online app, server, cloud, hybrid)<br>• Compute requirements (CPU/GPU, memory, speed benchmarks)<br>• Data security & privacy considerations |
+| **3. Infrastructure** | • Implementation environment (local R/Python, online app, server, cloud, hybrid)<br>• Compute requirements (CPU/GPU, memory, speed benchmarks)<br>• Data security & privacy considerations |
 | **4. User Experience (UX)** | • Steps to access and use the tool<br>• Input/upload process<br>• Processing expectations (latency, transparency)<br>• Output format<br>• Error handling (what the user sees when data is not suitable) |
 :::
 
-## Confirm specification
+## Confirm specification {background="#FFFFFF"}
 
 ::: {style="font-size: 70%;"}
-| Item                 | Description                                                      |
-|----------------------|------------------------------------------------------------------|
-| Objective            | Confirm specification to build                                   |
-| Design               | Survey                                                           |
-| Recruitment strategy | Participants of workshop + respondents to survey                 |
-| Sample               | 36                                                               |
-| Duration             | 5 minutes                                                        |
-| Method               | Online voting                                                    |
+| Item                 | Description                                      |
+|----------------------|--------------------------------------------------|
+| Objective            | Confirm specification to build                   |
+| Design               | Survey                                           |
+| Recruitment strategy | Participants of workshop + respondents to survey |
+| Sample               | 36                                               |
+| Duration             | 5 minutes                                        |
+| Method               | Online voting                                    |
 :::
 
 # Phase 2 (Months 5 - 8) {background="#000000"}
 
-1. Build a minimum viable product  
-2. Peer review of code against specification (GESIS Researcher)  
-3. Train and test model using synthetic data  
-4. Peer review code (Co-pilot) 
-5. Validate model on empirical data (Data Services for the Social Sciences)  
+1.  Build a minimum viable product
+2.  Peer review of code against specification (GESIS Researcher)
+3.  Train and test model using synthetic data
+4.  Peer review code (Co-pilot)
+5.  Validate model on empirical data (Data Services for the Social Sciences)
+
+## Example Build 1 {background="#FFFFFF"}
+
+::: {style="font-size: 65%;"}
+| Item           | Description                                                                                                                                                                          |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Error Source   | Missing / Redundancy error                                                                                                                                                           |
+| Proposed tool  | 1) Generate synthetic data using AI<br>2) Simulate missingness<br>3) Apply peer-reviewed imputation strategies<br>4) Estimate bias & variance<br>5) Output imputed datasets          |
+| Proposed build | Functional, modular programming; define quality gates for each module to support peer review                                                                                        |
+| AI model       | Neural network (Variational Autoencoder)                                                                                                                                             |
+| Train          | Batch-feed data and update weights until the loss stops improving                                                                                                                    |
+| Testing        | Fidelity (distributions), Utility (prediction-based evaluation), Privacy (nearest-neighbour distance)                                                                                |
+| Output         | List of imputed datasets                                                                                                                                                             |
+:::
+
+## Example Build 2 {background="#FFFFFF"}
+
+::: {style="font-size: 65%;"}
+| Item           | Description                                                                                                                                                                 |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Error Source   | Components of the Total Survey Error framework                                                                                                                             |
+| Proposed tool  | 1) Collects survey design details<br>2) Identifies likely error sources<br>3) Retrieves mitigation strategies via RAG<br>4) Outputs error profile and action plan          |
+| Proposed build | Retrieval-Augmented Generation using TSE documentation, KODAQS documentation, toolbox materials; structured questioning; conservative prompts                               |
+| AI model       | LLM with RAG                                                                                                                                                                |
+| Train          | No fine-tuning initially                                                                                                                                                    |
+| Testing        | User + expert evaluation (hallucinations, completeness, alignment with best practice, user experience); update corpus and prompts accordingly                              |
+| Output         | Survey error profile summary and recommended mitigation strategies                                                                                                          |
+:::
 
 # Phase 3 (Months 9 - 11) {background="#000000"}
 
@@ -169,5 +194,3 @@ format:
 -   Review the process
 -   Publish a blog about the development process
 -   Output a recommendation report for GESIS on development of AI quality methods, and outline next steps for integrating indicator into Toolbox
-
-
