@@ -40,13 +40,20 @@ format:
 
 # About me {background="#000000"}
 
+## A quick overview {background="#FFFFFF"}
+
+-   Official Statistics <br> <br>
+-   Career Break <br> <br>
+-   Academia <br> <br>
+
 ## My work experience {background="#FFFFFF"}
 
--   Leading on Data Quality <br> <br>
+-   Championing Data Quality <br> <br>
 -   Advising on Methodology <br> <br>
--   Connecting through Training
+-   Innovating with Training <br> <br>
+-   Leading through collaboration
 
-## My values {background="#FFFFFF"}
+## What I value? {background="#FFFFFF"}
 
 -   Wisdom <br> <br>
 -   Compassion <br> <br>
@@ -82,9 +89,10 @@ format:
 | Design | Workshop |
 | Recruitment strategy | KODAQS mailing list + Knowledge Exchange and Outreach |
 | Sample | 4 researchers outside GESIS + 2 researchers from Survey Design and Methodology |
-| Duration | 4 hours |
+| Duration | 3 hours |
 | Medium | Online |
 | Incentive | Access to Alpha + Co-authorship in publication about development of tool |
+| Process evaluation | Co-creator experience, Facilitator reflection |
 :::
 
 ## Identify needs - Methods {background="#FFFFFF"}
@@ -93,7 +101,7 @@ format:
 | Topic | Dimensions | Method |
 |------------------|---------------------------------------|----------------|
 | Unmet data-quality needs where AI could add value | Frame error, Selection error, Missing redundancy, Validity error, Measurement error, Processing error | Card Sorting |
-| Features of AI tool that are important | Execution, Control, Model Type, Quality metrics, Interpretability, Infrastructure | Dot Voting |
+| Features of AI tool that are important | Execution, Control, Model Type, Quality metrics, Interpretability | Dot Voting |
 | Concerns in leveraging AI | Open | 6-3-5 Brainstorming |
 | What using the tool should look like | Access, Uploading Data, Processing Time, Format of Output, Explanation of Method | Journey Mapping |
 :::
@@ -124,7 +132,7 @@ format:
 4.  Compile results and feasibility review into an RMarkdown report.\
     *Method: Structured synthesis.* <br> <br>
 5.  Select the three most feasible AI-based data-quality methods.\
-    *Method: Prioritization matrix (feasibility × impact).*
+    *Method: Feasibility score.*
 :::
 
 ## Develop design specifications {background="#FFFFFF"}
@@ -134,7 +142,7 @@ format:
 |----------------|--------------------------------------------------------|
 | **1. Problem Definition** | • Data quality dimension to address (representation, measurement, processing, etc.)<br>• Specific Total Survey Error (TSE) source targeted |
 | **2. AI/Methodological Design** | • AI model type<br>• Approach type (fine-tuning, RAG)<br>• Training & testing workflow<br>• Quality/performance metrics<br>• Interpretability plan (SHAP, attention maps, rule extraction, LLM-output justification)<br>• Model limitations (transparent statement) |
-| **3. Infrastructure** | • Implementation environment (local R/Python, online app, server, cloud, hybrid)<br>• Compute requirements (CPU/GPU, memory, speed benchmarks)<br>• Data security & privacy considerations |
+| **3. Infrastructure** | • Implementation environment (local R/Python, online app, server, cloud, hybrid)<br>• Compute requirements<br>• Data security & privacy considerations |
 | **4. User Experience (UX)** | • Steps to access and use the tool<br>• Input/upload process<br>• Processing expectations (latency, transparency)<br>• Output format<br>• Error handling (what the user sees when data is not suitable) |
 :::
 
